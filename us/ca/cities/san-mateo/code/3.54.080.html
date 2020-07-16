@@ -5,7 +5,6 @@
     <title>3.54.080 SOUTH TRUNK SEWER AREA IMPACT FEE. | San Mateo Law Library</title>
     <link rel="shortcut icon" href="/us/ngo/oll/_document/v2/images/favicons/favicon.ico"/>
     <!--Meta-->
-    <meta name="description" content="Browse the laws and code of San Mateo"/>
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
@@ -53,15 +52,17 @@
     <script src="/_reader/js/main.js"> </script>
   </head>
   <body>
-    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true">
+    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true" aria-label="Live messages">
       <p id="message"> </p>
     </div>
-    <a href="#area__content" class="skip-link">Skip to main content</a>
+    <nav class="visually-hidden">
+      <a href="#area__content" class="skip-link">Skip to main content</a>
+    </nav>
     <div id="grid" class="ns__document__oll-core">
       <header id="section__header" class="ns__document__oll-core">
         <div id="section__header__inner" class="ns__document__oll-core">
           <div id="area__logo" class="ns__document__oll-core">
-            <a href="/" class="logo" alt="San Mateo Law Library">
+            <a href="/" class="logo" aria-label="Logo - Return to home page">
               <img src="/us/ngo/oll/_document/v2/images/logo/logo.png" srcset="/us/ngo/oll/_document/v2/images/logo/logo.png 1x, /us/ngo/oll/_document/v2/images/logo/logo@2x.png 2x" alt="San Mateo Law Library logo"/>
             </a>
           </div>
@@ -70,11 +71,13 @@
           </div>
         </div>
       </header>
-      <section id="section__content" class="ns__document__oll-core">
+      <div id="section__content" class="ns__document__oll-core">
         <div id="section__content__inner" class="ns__document__oll-core">
-          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region">
-            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-hidden="true" aria-label="Mobile menu toggler"/>
-            <label for="menu-trigger" aria-label="Toggle mobile menu"> </label>
+          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region" aria-label="Breadcrumbs">
+            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-label="Mobile menu toggler"/>
+            <label for="menu-trigger">
+              <span class="visually-hidden">Toggle mobile menu</span>
+            </label>
             <nav role="navigation" aria-label="Breadcrumb navigation">
               <div class="h__ui">Navigation</div>
               <ul class="ancestors">
@@ -98,7 +101,7 @@
           </section>
           <main id="area__content" class="ns__document__oll-core">
             <div class="h__document-title">City of San Mateo Municipal Code.</div>
-            <article class="content" role="document" ref-path="3.54.080">
+            <article class="content" role="document" data-ref-path="3.54.080">
               <div class="tuf-authenticate">
                 <h1 class="h__toc" id="/us/ca/cities/san-mateo/code/3.54.080">3.54.080 SOUTH TRUNK SEWER AREA IMPACT FEE.</h1>
                 <p class="text-indent-1"><span class="level-num" id="(a)">(a)</span> As of March 1, 2008, there is hereby imposed on all development, whether new development or redevelopment, in the South Trunk Sewer Area (generally that area extending south from the Dale Avenue Pump Station utility corridor parallel to Highway 101, and upstream in or parallel to East 16th Avenue, South Delaware Street through the Bay Meadows area, and Railroad Avenue and South El Camino Real, and extending up Borel Avenue, West Hillsdale Boulevard, and Saratoga Drive but excluding Bay Meadows Phase I and Phase II) a sewer area development impact fee for each type of sewer connection.</p>
@@ -153,11 +156,10 @@
       (<a href="/us/ca/cities/san-mateo/ordinances/2018/1#1" title="Section 1.">Ord. No. 2018-1 § 1</a>; <a href="/us/ca/cities/san-mateo/ordinances/2015/2" title="Ord. No. 2015-2. Amending Section 3.54.060, “Sewer Connection Charges,” and Section 3.54.090, “South Trunk Sewer Area Impact Fee” of the San Mateo Municipal Code to Allow Sewer Connection Charges and South Trunk Sewer Area Impact Fees to Be Set by Resolution.">Ord. No. 2015-2 § 2</a>; <a href="/us/ca/cities/san-mateo/ordinances/2014/6" title="Ord. No. 2014-6. Amending Section 3.54.090 of the San Mateo Municipal Code to Increase the South Trunk Area Sewer Area Impact Fee.">Ord. No. 2014-6 § 2</a>; Ord. No. 2007-13 § 1.)
     </p>
                 </aside>
-                <hr class="section-separator" aria-hidden="true"/>
               </div>
             </article>
           </main>
-          <nav id="area__navigation_mini" class="ui ns__document__oll-core" role="region" aria-label="Previous and next article links">
+          <nav id="area__navigation_mini" class="ns__document__oll-core" aria-label="Previous and next article links">
             <section>
               <a href="/us/ca/cities/san-mateo/code/3.54.070" aria-label="3.54.070 SEWER SERVICE FUND.">
                 <div class="h__ui">Previous</div>
@@ -172,7 +174,7 @@
             </section>
           </nav>
         </div>
-      </section>
+      </div>
       <footer id="section__footer" class="ns__document__oll-core">
         <div id="section__footer__inner" class="ns__document__oll-core">
           <div id="area__footer__content" class="ns__document__oll-core">
@@ -187,7 +189,7 @@
     </div>
     <!--Piwik analytics-->
     <noscript>
-      <img src="/_analytics/pixel.png?idsite=2" style="border:0;" alt=""/>
+      <img src="/_analytics/pixel.png" style="border:0;" alt=""/>
     </noscript>
   </body>
 </html>

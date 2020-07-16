@@ -5,7 +5,6 @@
     <title>2.15 Ordinances, Generally. | San Mateo Law Library</title>
     <link rel="shortcut icon" href="/us/ngo/oll/_document/v2/images/favicons/favicon.ico"/>
     <!--Meta-->
-    <meta name="description" content="Browse the laws and code of San Mateo"/>
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
@@ -53,15 +52,17 @@
     <script src="/_reader/js/main.js"> </script>
   </head>
   <body>
-    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true">
+    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true" aria-label="Live messages">
       <p id="message"> </p>
     </div>
-    <a href="#area__content" class="skip-link">Skip to main content</a>
+    <nav class="visually-hidden">
+      <a href="#area__content" class="skip-link">Skip to main content</a>
+    </nav>
     <div id="grid" class="ns__document__oll-core">
       <header id="section__header" class="ns__document__oll-core">
         <div id="section__header__inner" class="ns__document__oll-core">
           <div id="area__logo" class="ns__document__oll-core">
-            <a href="/" class="logo" alt="San Mateo Law Library">
+            <a href="/" class="logo" aria-label="Logo - Return to home page">
               <img src="/us/ngo/oll/_document/v2/images/logo/logo.png" srcset="/us/ngo/oll/_document/v2/images/logo/logo.png 1x, /us/ngo/oll/_document/v2/images/logo/logo@2x.png 2x" alt="San Mateo Law Library logo"/>
             </a>
           </div>
@@ -70,11 +71,13 @@
           </div>
         </div>
       </header>
-      <section id="section__content" class="ns__document__oll-core">
+      <div id="section__content" class="ns__document__oll-core">
         <div id="section__content__inner" class="ns__document__oll-core">
-          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region">
-            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-hidden="true" aria-label="Mobile menu toggler"/>
-            <label for="menu-trigger" aria-label="Toggle mobile menu"> </label>
+          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region" aria-label="Breadcrumbs">
+            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-label="Mobile menu toggler"/>
+            <label for="menu-trigger">
+              <span class="visually-hidden">Toggle mobile menu</span>
+            </label>
             <nav role="navigation" aria-label="Breadcrumb navigation">
               <div class="h__ui">Navigation</div>
               <ul class="ancestors">
@@ -95,18 +98,17 @@
           </section>
           <main id="area__content" class="ns__document__oll-core">
             <div class="h__document-title">San Mateo City Charter.</div>
-            <article class="content" role="document" ref-path="2.15">
+            <article class="content" role="document" data-ref-path="2.15">
               <div class="tuf-authenticate">
                 <h1 class="h__toc" id="/us/ca/cities/san-mateo/charter/2.15">2.15 Ordinances, Generally.</h1>
                 <p class="text-indent-1"><span class="level-num" id="(a)">(a)</span> All proposed ordinances introduced in the council shall be in printed or typewritten form. The enacting clause of all ordinances passed by the council shall read as follows: "The Council of the City of San Mateo ordains as follows:". The enacting clause of all ordinances initiated by the people shall read as follows: "The People of the City of San Mateo ordain as follows:".</p>
                 <p class="text-indent-1"><span class="level-num" id="(b)">(b)</span> No ordinance other than an emergency ordinance shall be passed by the council on the day of its introduction, nor within five days thereafter, nor at any time other than a regular or adjourned regular meeting.</p>
                 <p class="text-indent-1"><span class="level-num" id="(c)">(c)</span> A notice of the general nature of the proposed ordinance or a copy thereof, and of the time and place for its consideration by the council shall be given to those news media to whom notice of special meetings of the council would be required under the general law of the state. A reasonable number of copies of the proposed ordinance shall be made available for public inspection at reasonable times in the clerk's office and at each of the city libraries, and such notice shall be given by the city clerk as soon as practicable following introduction of the ordinance. Failure to comply with this subsection shall not invalidate the ordinance, but a willful violation shall constitute a misdemeanor and malfeasance in office.</p>
                 <p class="text-indent-1"><span class="level-num" id="(d)">(d)</span> A proposed ordinance may be amended or modified between the time of its introduction and the time of its final passage, provided its general scope and original purpose are retained. All ordinances shall be signed by the mayor and attested by the city clerk. Ordinances shall be published at least once in the official city newspaper before becoming effective; in lieu of publishing the full text of an ordinance, the city clerk may publish a summary of the scope and general purpose of the ordinance in the official city newspaper and post the full text of the ordinance in the office of the city clerk as well as publish the full text of an ordinance on the official city website.</p>
-                <hr class="section-separator" aria-hidden="true"/>
               </div>
             </article>
           </main>
-          <nav id="area__navigation_mini" class="ui ns__document__oll-core" role="region" aria-label="Previous and next article links">
+          <nav id="area__navigation_mini" class="ns__document__oll-core" aria-label="Previous and next article links">
             <section>
               <a href="/us/ca/cities/san-mateo/charter/2.14" aria-label="2.14 Voting.">
                 <div class="h__ui">Previous</div>
@@ -121,7 +123,7 @@
             </section>
           </nav>
         </div>
-      </section>
+      </div>
       <footer id="section__footer" class="ns__document__oll-core">
         <div id="section__footer__inner" class="ns__document__oll-core">
           <div id="area__footer__content" class="ns__document__oll-core">
@@ -136,7 +138,7 @@
     </div>
     <!--Piwik analytics-->
     <noscript>
-      <img src="/_analytics/pixel.png?idsite=2" style="border:0;" alt=""/>
+      <img src="/_analytics/pixel.png" style="border:0;" alt=""/>
     </noscript>
   </body>
 </html>

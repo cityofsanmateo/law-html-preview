@@ -5,7 +5,6 @@
     <title>27.18.080 SIDE YARDS. | San Mateo Law Library</title>
     <link rel="shortcut icon" href="/us/ngo/oll/_document/v2/images/favicons/favicon.ico"/>
     <!--Meta-->
-    <meta name="description" content="Browse the laws and code of San Mateo"/>
     <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
@@ -53,15 +52,17 @@
     <script src="/_reader/js/main.js"> </script>
   </head>
   <body>
-    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true">
+    <div role="region" id="announcer" aria-live="polite" class="sr-only" aria-atomic="true" aria-label="Live messages">
       <p id="message"> </p>
     </div>
-    <a href="#area__content" class="skip-link">Skip to main content</a>
+    <nav class="visually-hidden">
+      <a href="#area__content" class="skip-link">Skip to main content</a>
+    </nav>
     <div id="grid" class="ns__document__oll-core">
       <header id="section__header" class="ns__document__oll-core">
         <div id="section__header__inner" class="ns__document__oll-core">
           <div id="area__logo" class="ns__document__oll-core">
-            <a href="/" class="logo" alt="San Mateo Law Library">
+            <a href="/" class="logo" aria-label="Logo - Return to home page">
               <img src="/us/ngo/oll/_document/v2/images/logo/logo.png" srcset="/us/ngo/oll/_document/v2/images/logo/logo.png 1x, /us/ngo/oll/_document/v2/images/logo/logo@2x.png 2x" alt="San Mateo Law Library logo"/>
             </a>
           </div>
@@ -70,11 +71,13 @@
           </div>
         </div>
       </header>
-      <section id="section__content" class="ns__document__oll-core">
+      <div id="section__content" class="ns__document__oll-core">
         <div id="section__content__inner" class="ns__document__oll-core">
-          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region">
-            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-hidden="true" aria-label="Mobile menu toggler"/>
-            <label for="menu-trigger" aria-label="Toggle mobile menu"> </label>
+          <section id="area__breadcrumbs" class="ns__document__oll-core" role="region" aria-label="Breadcrumbs">
+            <input type="checkbox" id="menu-trigger" class="menu-trigger" aria-label="Mobile menu toggler"/>
+            <label for="menu-trigger">
+              <span class="visually-hidden">Toggle mobile menu</span>
+            </label>
             <nav role="navigation" aria-label="Breadcrumb navigation">
               <div class="h__ui">Navigation</div>
               <ul class="ancestors">
@@ -98,7 +101,7 @@
           </section>
           <main id="area__content" class="ns__document__oll-core">
             <div class="h__document-title">City of San Mateo Municipal Code.</div>
-            <article class="content" role="document" ref-path="27.18.080">
+            <article class="content" role="document" data-ref-path="27.18.080">
               <div class="tuf-authenticate">
                 <h1 class="h__toc" id="/us/ca/cities/san-mateo/code/27.18.080">27.18.080 SIDE YARDS.</h1>
                 <p class="text-indent-1"><span class="level-num" id="(a)">(a)</span> Interior side yards. Interior side yards not less than seven (7) feet in an R1-A district and not less than five (5) feet in an R1-B or R1-C district shall be provided.</p>
@@ -112,7 +115,7 @@
                 <p class="text-indent-5"><span class="level-num" id="(b)(4)(A)(i)(AA)">(AA)</span> For those parcels with single car garages, carports, or open parking spaces setback 35 feet or more from the street property line, no paving in addition to the driveway shall be allowed in the side setback.</p>
                 <p class="text-indent-4"><span class="level-num" id="(b)(4)(A)(ii)">(ii)</span> Two-car garages or larger: 20 feet maximum.</p>
                 <p class="text-indent-3"><span class="level-num" id="(b)(4)(B)">(B)</span> Pedestrian walkways which are five (5) feet or less in width.</p>
-                <p>Paving and similar impervious surfaces means that surface which is incapable of being penetrated by water.</p>
+                <p class="text-indent-1">Paving and similar impervious surfaces means that surface which is incapable of being penetrated by water.</p>
                 <p class="text-indent-1"><span class="level-num" id="(c)">(c)</span> Extensions of walls having non-conforming side yards. When an existing interior side yard of a legally constructed single family dwelling is less than that required by this Section, a single story, horizontal addition may be constructed maintaining the existing non-conforming setback line, provided that:</p>
                 <p class="text-indent-2"><span class="level-num" id="(c)(1)">(1)</span> The existing side yard setback to be extended is at least three (3) feet from the side property line;</p>
                 <p class="text-indent-2"><span class="level-num" id="(c)(2)">(2)</span> The maximum height of the extended wall is twelve (12) feet to the plateline;</p>
@@ -128,11 +131,10 @@
                     <a class="internal-link" href="/us/ca/cities/san-mateo/code/27.19.050#(k)(3)b." title="">Section 27.19.050(k)(3)b.</a>
                   </p>
                 </aside>
-                <hr class="section-separator" aria-hidden="true"/>
               </div>
             </article>
           </main>
-          <nav id="area__navigation_mini" class="ui ns__document__oll-core" role="region" aria-label="Previous and next article links">
+          <nav id="area__navigation_mini" class="ns__document__oll-core" aria-label="Previous and next article links">
             <section>
               <a href="/us/ca/cities/san-mateo/code/27.18.070" aria-label="27.18.070 FRONT YARD.">
                 <div class="h__ui">Previous</div>
@@ -147,7 +149,7 @@
             </section>
           </nav>
         </div>
-      </section>
+      </div>
       <footer id="section__footer" class="ns__document__oll-core">
         <div id="section__footer__inner" class="ns__document__oll-core">
           <div id="area__footer__content" class="ns__document__oll-core">
@@ -162,7 +164,7 @@
     </div>
     <!--Piwik analytics-->
     <noscript>
-      <img src="/_analytics/pixel.png?idsite=2" style="border:0;" alt=""/>
+      <img src="/_analytics/pixel.png" style="border:0;" alt=""/>
     </noscript>
   </body>
 </html>
