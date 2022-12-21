@@ -1,8 +1,8 @@
 {
   "meta": {
     "build": {
-      "build-date": "2022-12-05",
-      "ci-build-number": "1.0.256",
+      "build-date": "2022-12-21",
+      "ci-build-number": "1.0.257",
       "ci-project": "cityofsanmateo/law-xml",
       "codified-date": "2023-07-01",
       "platform": {
@@ -11,17 +11,25 @@
       },
       "repositories": [
         {
-          "commit": "6b75df44b3c67abcfc4be4e7b4bc5b6f4551380d",
+          "commit": "3f82304cdfd7d880108f8fb7f77ce2b612cc462e",
           "name": "cityofsanmateo/law-xml"
         },
         {
-          "commit": "18b5c0435a905d72c5b05c451a442bddcdeb30a7",
+          "commit": "9867d3d8f2efe0346f51a656c4adcd0d7dc074ee",
           "name": "cityofsanmateo/law-xml-codified-preview"
         }
       ]
     },
     "canonical-urls": {
-      "html": "https://sanmateo.ca.us.open.law",
+      "html": {
+        "current": "https://law.cityofsanmateo.org",
+        "historical": {
+          "historic": {
+            "end": "2022-12-21",
+            "text": "https://sanmateo.ca.us.open.law"
+          }
+        }
+      },
       "html-bulk": "https://github.com/cityofsanmateo/law-html",
       "law-git": "https://github.com/cityofsanmateo/law.git",
       "static-assets": "https://github.com/openlawlibrary/law-static-assets",
